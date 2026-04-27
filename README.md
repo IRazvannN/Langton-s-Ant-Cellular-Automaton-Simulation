@@ -9,7 +9,7 @@ Langton's Ant is a two-dimensional universal Turing machine. An autonomous agent
 1. **At a White square:** Turn 90° right, invert the cell to Black, and advance one unit.
 2. **At a Black square:** Turn 90° left, invert the cell to White, and advance one unit.
 
-This simulation visualizes the transition from initial symmetry through a chaotic, pseudo-random growth phase, ultimately leading to stable emergent structures ("highways") or grid saturation, depending on the boundary logic.
+This simulation visualizes the transition from initial symmetry through a chaotic, pseudo-random growth phase, ultimately leading to stable emergent structures or grid saturation, depending on the boundary logic.
 
 ## Technical Features
 
@@ -22,7 +22,7 @@ This simulation visualizes the transition from initial symmetry through a chaoti
 
 This program was developed for standard DOS environments and 16-bit emulators.
 
-* **Compiler/Emulator:**[EMU8086](https://emu8086-assembler-and-microprocessor-emulator.en.softonic.com/) or compiled via MASM/TASM for DOSBox.
+* **Compiler/Emulator:** EMU8086 or compiled via MASM/TASM for DOSBox.
 * **Execution:** Load `main.asm` and compile/emulate as a `.COM` executable.
 
 ## Controls
@@ -33,14 +33,9 @@ The simulation runs autonomously, but execution speed can be managed dynamically
 * `s` - Decrease simulation speed (Increases internal CPU delay cycles)
 * `q` - Terminate execution
 
-## Screenshots
+## Simulation Output
 
-*(Note: Add the screenshots to your repository root and update these links)*
-
-![Early Phase](screenshot1.png)  
-*Initial execution phase demonstrating the visual agent and trail rendering.*
-
-![Saturation Phase](screenshot3.png)  
+![Saturation Phase](Saturation_Phase.png)  
 *Grid saturation and chaotic clustering occurring after extended computational cycles.*
 
 ## Architecture & Logic Flow
